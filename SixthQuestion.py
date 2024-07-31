@@ -2,4 +2,4 @@
 to print only the odd numbers."""
 for i in range(1,50):
     if (i%2!=0):
-        print (i)
+        print (f"Odd no betwwen 1 to 50 :{i}")

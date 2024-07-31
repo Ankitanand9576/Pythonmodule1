@@ -321,15 +321,77 @@ x1=[1,2,3,] #
 #     else:
 #         print("grade of student is E")
     
+# try :
+#     print(x)  
+# except NameError:
+#     print ("variable x is not dfinedpy")
+# except :
+#     print("i am not perfect")
+    
+# try :
+#  my_list=["ankit",12,12.12,"ram","mohan",78,]
+#  print(my_list)
+# except Exception as e :
+#     print ("error in list" e)
     
     
-    
+# my_list.append("anj")
         
-    
+# print(my_list)
+# print(my_list[1])
+# print(my_list[:5])
+# print(my_list[-4:-1])
+# my_list[1]="dear"
+# my_list[1:3]="bied","animal"
+# print(my_list)
+# my_list.insert(1,"tyurr")
+# print(my_list)
+# my_list.remove("tyurr")
+# print(my_list)
+# my_list.pop(1)
+# print(my_list)
+# del my_list[1]
+# my_tuple=("ankit",1,3,3,4,4,4)
+# print(my_tuple)
+# my_tuple_list=list(my_tuple)
+# my_tuple_list.append("anup")
+# my_tuple_list.pop(4)
+# del my_tuple_list[5]
+# my_touple=tuple(my_tuple_list)
+# print(my_touple)
+# thisdict ={
+#     "brand":"ford",
+#     "model":"Mustang",
+#     "year":1964
+# }
+# print(len(thisdict))
+# print(thisdict["brand"])
+# print(thisdict["model"])
+
+# key_check=thisdict.get("year")
+# print(key_check)
+
+# my_list=["ankit","anup",1,1.6,"anjali","anil",3,5,6,8]
+# my_set=set(my_list)
+# print(my_set)
+# my_list[5]="ambani"
+# del my_list[7]
+# my_list.pop(7)
+# print(my_list)
+try:
+    my_dict={"ankit":28,"anup":26}
+    my_dict1={"branch1":"ece","branch":"cs"}
+    my_dict2=my_dict.update({my_dict1})
+    print(my_dict2)
 
     
-         
-    
+except Exception as e:
+    print(e)
+
+
+
+
+
     
 
    

@@ -7,7 +7,7 @@ while(demoBoolean):
     demoList.append(user)
     print(demoList)
     for i in demoList:
-      print("this is :",i)
+      print(f"this is : {i}")
       if (i!="quit"):
         demoBoolean=False
         break
