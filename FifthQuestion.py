@@ -4,7 +4,6 @@ check=True
 try:
  while(True):
     markOfStudent=(input("Enter the marks: "))
-
     if (markOfStudent>90 and markOfStudent<=100):
         print ("grade of student a")
     elif (markOfStudent>70 and markOfStudent<=90):
